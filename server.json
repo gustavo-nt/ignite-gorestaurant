@@ -9,12 +9,20 @@
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png"
     },
     {
-      "image": "https://files.passeidireto.com/1cc481c0-d28a-4f01-814f-1d9c0d3d2a26/1cc481c0-d28a-4f01-814f-1d9c0d3d2a26.jpeg",
-      "name": "Moda a teste",
-      "price": "20.99",
-      "description": "Venha saborear a mais nobre moda a teste da casa de lasanhas",
+      "id": 2,
+      "name": "Veggie",
+      "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
+      "price": "21.90",
       "available": true,
-      "id": 2
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png"
+    },
+    {
+      "id": 3,
+      "name": "A la Camarón",
+      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
+      "price": "25.90",
+      "available": false,
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
     }
   ]
 }
