@@ -31,7 +31,7 @@ export function ModalAddFood({ isOpen, setIsOpen, handleAddFood }: ModalAddFoodP
         <Input name="price" placeholder="Ex: 19.90" />
 
         <Input name="description" placeholder="Descrição" />
-        <button type="submit" data-testid="add-food-button">
+        <button type="submit">
           <p className="text">Adicionar Prato</p>
           <div className="icon">
             <FiCheckSquare size={24} />

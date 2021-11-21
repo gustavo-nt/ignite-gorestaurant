@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background: #c72828;
-  padding: 30px 0;
+  padding: 30px;
 
   header {
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
     padding: 0 0 160px;
     display: flex;
@@ -37,6 +37,23 @@ export const Container = styled.div`
             margin: 0 auto;
           }
         }
+      }
+    }
+  }
+
+  @media(max-width: 600px) {
+    padding: 20px;
+
+    header {
+      padding: 0 0 110px;
+      flex-direction: column;
+
+      nav {
+        box-shadow: 0px 0px 28px -10px rgb(0 0 0 / 56%);
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1;
       }
     }
   }

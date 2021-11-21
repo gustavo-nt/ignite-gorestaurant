@@ -45,7 +45,6 @@ export function Food({ food, handleDelete, handleEditFood }: FoodProps) {
             type="button"
             className="icon"
             onClick={setEditingFood}
-            data-testid={`edit-food-${food.id}`}
           >
             <FiEdit3 size={20} />
           </button>
@@ -54,7 +53,6 @@ export function Food({ food, handleDelete, handleEditFood }: FoodProps) {
             type="button"
             className="icon"
             onClick={() => handleDelete(food.id)}
-            data-testid={`remove-food-${food.id}`}
           >
             <FiTrash size={20} />
           </button>
@@ -69,7 +67,6 @@ export function Food({ food, handleDelete, handleEditFood }: FoodProps) {
               type="checkbox"
               checked={isAvailable}
               onChange={toggleAvailable}
-              data-testid={`change-status-food-${food.id}`}
             />
             <span className="slider" />
           </label>

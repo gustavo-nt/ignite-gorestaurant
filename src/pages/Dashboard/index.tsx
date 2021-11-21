@@ -86,16 +86,19 @@ export function Dashboard() {
         handleUpdateFood={handleUpdateFood}
       />
 
-      <FoodsContainer data-testid="foods-list">
-        {foods &&
-          foods.map(food => (
-            <Food
-              key={food.id}
-              food={food}
-              handleDelete={handleDeleteFood}
-              handleEditFood={handleEditFood}
-            />
-          ))}
+      <FoodsContainer>
+        <div>
+          {foods &&
+            foods.map(food => (
+              <Food
+                key={food.id}
+                food={food}
+                handleDelete={handleDeleteFood}
+                handleEditFood={handleEditFood}
+              />
+            ))
+          }
+        </div>
       </FoodsContainer>
     </>
   );

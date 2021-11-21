@@ -33,7 +33,7 @@ export function ModalEditFood({ isOpen, setIsOpen, editingFood, handleUpdateFood
 
         <Input name="description" placeholder="Descrição" />
 
-        <button type="submit" data-testid="edit-food-button">
+        <button type="submit">
           <div className="text">Editar Prato</div>
           <div className="icon">
             <FiCheckSquare size={24} />
