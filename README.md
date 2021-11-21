@@ -73,7 +73,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - ReactJS
 - Typescript
-- Axios
 - Jest
 
 ### 📕 Bibliotecas
@@ -83,6 +82,7 @@ Esse projeto foi utilizou das seguintes lib:
 - react-router-dom
 - styled-components
 - react-modal
+- axios
 - yup
 
 ### 📝 Licença
