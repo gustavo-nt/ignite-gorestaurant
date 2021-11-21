@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/gabriel-nt/GoRestaurant/blob/master/src/assets/logo-git.png" alt="GoRestaurant" />
+  <img src="https://github.com/gustavo-nt/ignite-gorestaurant/blob/master/src/assets/logo-git.png" alt="GoRestaurant" />
 </p>
 
 <h1 align="center">
@@ -35,11 +35,11 @@
 - [x] Alterar disponibilidade dos pratos de comida
 
 ### 💻 Projeto
-Rocketshoes é uma aplicação para venda de sapatos e tênis, onde possibilita ao usuário, a escolha da sua lista de produtos. Permitindo que "coloque" os produtos desejados em seu carrinho da aplicação. Esse Projeto foi desenvolvido como desafio principal da Semana 02 do Bootcamp Ignite.
+GoRestaurant é uma aplicação de cardápio de comidas italianas, possibilitando a criação, edição, atualização e remoção dos pratos. Esse Projeto foi desenvolvido como desafio principal da Semana 03 do Bootcamp Ignite.
 
 ### 🖼 Demonstração
 <p>
-   <img src="https://github.com/gabriel-nt/GoRestaurant/blob/master/src/assets/dashboard.PNG" alt="Dashboard"/>
+   <img src="https://github.com/gustavo-nt/ignite-gorestaurant/blob/master/src/assets/home.png" alt="Dashboard"/>
 </p>
 
 ### ⚙ Pré-requisitos
