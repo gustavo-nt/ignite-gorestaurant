@@ -5,12 +5,12 @@
 <h1 align="center">
     🚀 GoRestaurant
 </h1>
-<p align="center">Desafio do Ignite sobre Context API em ReactJS</p>
+<p align="center">Desafio do Bootcamp Ignite sobre Refactoring de classes e TypeScript em ReactJS</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/react%20version-16.13.1-informational"/>
   <img src="https://img.shields.io/badge/score-10.00-important" />
-  <img src="https://img.shields.io/badge/last%20commit-october-blue" />
+  <img src="https://img.shields.io/badge/last%20commit-november-blue" />
   <img src="https://img.shields.io/badge/license-MIT-success"/>
 </p>
 
