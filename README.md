@@ -35,7 +35,7 @@
 - [x] Alterar disponibilidade dos pratos de comida
 
 ### 💻 Projeto
-GoRestaurant é uma aplicação de cardápio de comidas italianas, possibilitando a criação, edição, atualização e remoção dos pratos. Esse Projeto foi desenvolvido como desafio principal da Semana 03 do Bootcamp Ignite.
+GoRestaurant é uma aplicação de cardápio de comidas italianas, possibilitando a criação, edição, atualização e remoção dos pratos. Esse Projeto foi desenvolvido como desafio principal da Semana 02 do Bootcamp Ignite.
 
 ### 🖼 Demonstração
 <p>
