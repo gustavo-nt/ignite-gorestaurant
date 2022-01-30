@@ -9,12 +9,18 @@ export const Container = styled.div<FoodProps>`
   border-radius: 8px;
 
   header {
-    background: #ffb84d;
-    border-radius: 8px 8px 0px 0px;
-    height: 192px;
+    height: 188px;
     overflow: hidden;
-    transition: 0.3s opacity;
     text-align: center;
+    background: #ffb84d;
+    transition: 0.3s opacity;
+    border-radius: 8px 8px 0px 0px;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
 
     ${props => !props.available &&
       css`
@@ -43,8 +49,8 @@ export const Container = styled.div<FoodProps>`
 
     .price {
       font-style: normal;
-      font-size: 24px;
       line-height: 34px;
+      font-size: 24px;
       color: #39b100;
 
       b {
@@ -55,8 +61,8 @@ export const Container = styled.div<FoodProps>`
 
   section.footer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 
     padding: 20px 30px;
     background: #e4e4eb;
@@ -66,12 +72,12 @@ export const Container = styled.div<FoodProps>`
       display: flex;
 
       button {
-        background: #fff;
-        padding: 10px;
-        border-radius: 8px;
-        display: flex;
         border: none;
+        padding: 10px;
+        display: flex;
+        background: #fff;
         transition: 0.1s;
+        border-radius: 8px;
 
         svg {
           color: #3d3d4d;
@@ -92,41 +98,41 @@ export const Container = styled.div<FoodProps>`
       }
 
       .switch {
-        position: relative;
-        display: inline-block;
         width: 88px;
         height: 32px;
         margin-left: 12px;
+        position: relative;
+        display: inline-block;
 
         & input {
-          opacity: 0;
           width: 0;
           height: 0;
+          opacity: 0;
         }
 
         .slider {
-          position: absolute;
           cursor: pointer;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
+          position: absolute;
+          inset: 0 0 0 0;
+
           background-color: #c72828;
           -webkit-transition: 0.4s;
-          transition: 0.4s;
           border-radius: 16px;
+          transition: 0.4s;
 
           &:before {
-            position: absolute;
             content: '';
-            height: 20px;
             width: 40px;
-            left: 8px;
+            height: 20px;
+
+            position: absolute;
             bottom: 6px;
-            background-color: white;
+            left: 8px;
+
             -webkit-transition: 0.4s;
-            transition: 0.4s;
+            background-color: white;
             border-radius: 10px;
+            transition: 0.4s;
           }
         }
 
@@ -144,6 +150,16 @@ export const Container = styled.div<FoodProps>`
           transform: translateX(32px);
         }
       }
+    }
+  }
+
+  @media(max-width: 600px) {
+    section.body {
+      padding: 30px 20px;
+    }
+    
+    section.footer {
+      padding: 20px;
     }
   }
 `;

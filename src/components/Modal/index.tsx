@@ -13,8 +13,14 @@ export function Modal({ isOpen, setIsOpen, children }: ModalProps) {
   useEffect(() => {
     if (modalStatus !== isOpen) {
       setModalStatus(isOpen);
+
+      if (isOpen) {
+      document.body.style.overflow = 'hidden';
+      } else {
+        document.body.style.overflow = '';
+      }
     }
-  }, [isOpen]);
+  }, [isOpen, modalStatus]);
 
   return (
     <ReactModal
@@ -28,16 +34,17 @@ export function Modal({ isOpen, setIsOpen, children }: ModalProps) {
           left: '50%',
           right: 'auto',
           bottom: 'auto',
-          marginRight: '-50%',
           transform: 'translate(-50%, -50%)',
-          background: '#F0F0F5',
+          backgroundColor: 'transparent',
+          borderRadius: '0px',
           color: '#000000',
-          borderRadius: '8px',
-          width: '736px',
+          maxWidth: '736px',
           border: 'none',
+          width: '100%',
         },
         overlay: {
           backgroundColor: '#121214e6',
+          zIndex: 2,
         },
       }}
     >

@@ -5,21 +5,22 @@ export const Container = styled.div`
   padding: 30px;
 
   header {
-    max-width: 1280px;
     margin: 0 auto;
+    max-width: 1280px;
     padding: 0 0 160px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    
     nav {
       div {
         button {
+          border: 0;
+          color: #fff;
           font-weight: 600;
           border-radius: 8px;
-          border: 0;
           background: #39b100;
-          color: #fff;
 
           display: flex;
           flex-direction: row;
@@ -31,10 +32,10 @@ export const Container = styled.div`
 
           .icon {
             display: flex;
+            margin: 0 auto;
             padding: 16px 16px;
             background: #41c900;
             border-radius: 0 8px 8px 0;
-            margin: 0 auto;
           }
         }
       }

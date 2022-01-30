@@ -4,9 +4,9 @@ export const FoodsContainer = styled.div`
   padding: 0 40px;
   
   > div {
-    max-width: 1280px;
     margin: 0 auto;
     padding: 40px 0;
+    max-width: 1280px;
     margin-top: -140px;
 
     display: grid;
@@ -23,6 +23,7 @@ export const FoodsContainer = styled.div`
   @media(max-width: 830px) {
     > div {
       display: flex;
+      padding-bottom: 60px;
       flex-direction: column;
     }
   }

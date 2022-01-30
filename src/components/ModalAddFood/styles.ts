@@ -2,13 +2,15 @@ import styled from 'styled-components';
 import { Form as Unform } from '@unform/web';
 
 export const Form = styled(Unform)`
-  padding: 48px 40px;
   display: flex;
+  padding: 48px 40px;
   flex-direction: column;
+  background: #F0F0F5;
+  border-radius: 8px;
 
   h1 {
-    font-weight: 600;
     font-size: 36px;
+    font-weight: 600;
     line-height: 36px;
     margin-bottom: 40px;
   }
@@ -19,11 +21,11 @@ export const Form = styled(Unform)`
   }
 
   button {
+    border: 0;
+    color: #fff;
     font-weight: 600;
     border-radius: 8px;
-    border: 0;
     background: #39b100;
-    color: #fff;
 
     display: flex;
     flex-direction: row;
@@ -35,10 +37,23 @@ export const Form = styled(Unform)`
 
     .icon {
       display: flex;
+      margin: 0 auto;
       padding: 16px 16px;
       background: #41c900;
       border-radius: 0 8px 8px 0;
-      margin: 0 auto;
+    }
+  }
+
+  @media(max-width: 600px) {
+    padding: 28px 20px;
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+
+    button {
+      margin-top: 38px;
     }
   }
 `;
