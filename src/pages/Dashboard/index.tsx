@@ -9,7 +9,6 @@ import api from '../../services/api';
 import { FoodsContainer } from './styles';
 import { FoodDashProps } from '../../types';
 
-
 export function Dashboard() {
   const [modalOpen, setModalOpen] = useState(false);
   const [foods, setFoods] = useState<FoodDashProps[]>([]);
